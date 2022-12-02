@@ -1,13 +1,14 @@
 /*********************************************************************************
-* WEB422 – Assignment 5
-* I declare that this assignment is my own work in accordance with Seneca Academic Policy.
-* No part of this assignment has been copied manually or electronically from any other source
-* (including web sites) or distributed to other students.
+* WEB422 – Assignment 06
+* I declare that this assignment is my own work in accordance with Seneca Academic Policy. No part of this
+* assignment has been copied manually or electronically from any other source (including web sites) or
+* distributed to other students.
 *
-* Name: Jay Pravinkumar Chaudhari Student ID: 147268205 Date: 2022-11-04
-* Deployed Link: https://a5-museum-collection.vercel.app/
+* Name: Jay Pravinkumar Chaudhari Student ID: 147268205 Date: 2022-12-01
 *
-********************************************************************************/
+* Vercel App (Deployed) Link: _____________________________________________________
+*
+********************************************************************************/ 
 
 import Image from 'react-bootstrap/Image';
 import Col from 'react-bootstrap/Col';
