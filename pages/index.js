@@ -6,7 +6,7 @@
 *
 * Name: Jay Pravinkumar Chaudhari Student ID: 147268205 Date: 2022-12-01
 *
-* Vercel App (Deployed) Link: _____________________________________________________
+* Vercel App (Deployed) Link: https://a6-met-artwork.vercel.app/
 *
 ********************************************************************************/ 
 
