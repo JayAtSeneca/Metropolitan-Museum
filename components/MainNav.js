@@ -43,7 +43,7 @@ export default function MainNav() {
         expanded={isExpanded}
       >
         <Container>
-          <Navbar.Brand>Jay Pravinkumar Chaudhari</Navbar.Brand>
+          <Navbar.Brand>Metropolitan Museum</Navbar.Brand>
           <Navbar.Toggle
             aria-controls="navbarScroll"
             onClick={(e) => setIsExpanded((value) => !value)}
