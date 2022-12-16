@@ -1,5 +1,5 @@
 # Museum-App
-This is the application made by using the Next.js. The Metropolitan Museum of Art of New York City's museum's data is fetched by API and then the application can able to perform the authentication functionality as well as the search, delete, and rendering with the help of react hooks and libraries. The application is deployed on Vercel <a href="https://a6-met-artwork.vercel.app/" target="_blank">here's the link</a>  
+This is the application made by using the Next.js. The Metropolitan Museum of Art of New York City's museum's data is fetched by API and then the application can able to perform the authentication functionality as well as the search, delete, and rendering with the help of react hooks and libraries. The application is deployed on Vercel (<a href="https://a6-met-artwork.vercel.app/" target="_blank">here's the link</a>)  
 
 
 ## Objectives
@@ -12,11 +12,13 @@ https://bootswatch.com
 
 ## Concept I learned and used in this application
 
-1) Authentification from JWT
-2) Jotai
-3) React hooks
-4) useatom
-5) Bootstarp UI
+1. Authentication using JSON Web Tokens(JWT)
+2. Jotai for managing the application state
+3. React hook form for creating the login form and register form
+4. Connected the application with backend by creating a REST API which helps in performing CRUD operations with MongoDB database.
+5. Used React Bootstarp for developing the User Interface
+6. Bcryptjs is used for encrypting password by hash the passwords. It can handle/receive on the user's hashed password. Also, it can save it to the database and that will be saved for every user and checked upon every login.
+7. Added JWT to the hashed password, then save the hashed password within the JWT token.
 
 ## Functionality
 
