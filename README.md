@@ -1,34 +1,67 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Museum-App
+This is the application made by using the Next.js. The Metropolitan Museum of Art of New York City's museum's data is fetched by API and then the application can able to perform the authentication functionality as well as the search, delete, and rendering with the help of react hooks and libraries. The application is deployed on Vercel (<a href="https://a6-met-artwork.vercel.app/" target="_blank">here's the link</a>)  
 
-## Getting Started
 
-First, run the development server:
+## Objectives
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+This is the ideal Museum Website which is made by using Next.js and Node.ja mainly. I have created the API to fetch the sample loade data on MongoDB atlas. You can find the API code of backed devlopment in my github profile. As i am also citing it below:
+https://github.com/JayAtSeneca/Metropolitan-Museum-User-API
+<br> 
+Secondly, To develop a modern, responsive user interface for searching and viewing data on the publicly available Metropolitan Museum of Art Collection API.  By using the  knowledge of React, Next.js and React Bootstrap to develop my solution.  However, if you wish to use a different UI library such as Material UI, etc. or add additional images, styles or functionality, please go ahead. I have also attacted the linked below:
+https://bootswatch.com
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Concept I learned and used in this application
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+1. Authentication using JSON Web Tokens(JWT)
+2. Jotai for managing the application state
+3. React hook form for creating the login form and register form
+4. Connected the application with backend by creating a REST API which helps in performing CRUD operations with MongoDB database.
+5. Used React Bootstarp for developing the User Interface
+6. Bcryptjs is used for encrypting password by hash the passwords. It can handle/receive on the user's hashed password. Also, it can save it to the database and that will be saved for every user and checked upon every login.
+7. Added JWT to the hashed password, then save the hashed password within the JWT token.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Functionality
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+User must register by providing username and password in order to use the application. Before moving on to the next step, the user must confirm the password.
+The user will therefore log in to the system. The user can access the application with the right information. After that, the user can search or conduct an advanced search to learn more about the museum collections. The app will produce the results based on the search. The user can also view their favorite list and search history. Additionally, the application allows users to delete previously performed searches from search histories as well as items put to favorites. In the future, after logging out, the user can log back in to retrieve all account activity.
 
-## Learn More
+## results
 
-To learn more about Next.js, take a look at the following resources:
+**As you can see here "bob" is logged in here**
+<br>
+<br>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+![image](https://user-images.githubusercontent.com/97627930/207999469-62d19317-850e-4fe3-bdb7-a97410b288a7.png)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+**He search the word "flower" in the search tab and he will get the results**
+<br>
+<br>
+![image](https://user-images.githubusercontent.com/97627930/207999681-dc9c978a-c4d4-4788-8552-18ad12a80307.png)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+**His search history is added in list, he can also remove it by clicking on the delete button**
+<br>
+<br>
+
+![image](https://user-images.githubusercontent.com/97627930/208000010-902a2063-8438-442d-b100-af5b173812b4.png)
+
+**He can add the item in favorites**
+<br>
+<br>
+
+![image](https://user-images.githubusercontent.com/97627930/208000301-741a7b79-da34-453a-a823-cf12f8307ef1.png)
+
+
+**And he can access all the items added in his favorites list**
+<br>
+<br>
+
+![image](https://user-images.githubusercontent.com/97627930/208000394-1bcc714c-ac6b-49b9-afa1-80230a70f0a5.png)
+
+
+**After he clicks on the logout button it will redirect him to the login page. And he can get all his account activities back after logging in again.**
+<br>
+<br>
+
+![image](https://user-images.githubusercontent.com/97627930/208000729-5c7f4d1b-4e15-45c7-8901-f8a57a227908.png)
