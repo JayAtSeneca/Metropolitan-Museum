@@ -75,6 +75,18 @@ export default function Register(props) {
             Register
         </Button>
       </Form>
+      <br />
+      <br />
+      <div className="signup-prompt container">
+        <h2>Why Sign Up?</h2>
+        <ul>
+          <li>Access exclusive content only available to registered users.</li>
+          <li>Save your favorite exhibits and artists for easy access.</li>
+          <li>Receive updates on new exhibits, events, and promotions.</li>
+          <li>Connect with other art enthusiasts and share your experiences.</li>
+          <li>Contribute to the community by leaving reviews and ratings.</li>
+        </ul>
+      </div>
     </>
   );
 }
